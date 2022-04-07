@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Triangle Tracker</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Determine the type of triangle based on the length of its 3 sides! </h1>
+
+    <form action="" id="triangleInput">
+      <label for="">Side 1:</label>
+      <input type="text" id="side1">
+      <label for="">Side 2:</label>
+      <input type="text" id="side2">
+      <label for="">Side 3:</label>
+      <input type="text" id="side3">
+
+      <button type="submit" class="btn1">Determine triangle type</button>
+    </form>
+
+    <div id="result">
+      <div id="equilateral">
+        <p>Equilateral: All sides are equal.</p>
+      </div>
+
+      <div id="isosceles">
+        <p>Isosceles: Exactly 2 sides are equal.</p>
+      </div>
+
+      <div id="scalene">
+        <p>Scalene: No sides are equal.</p>
+      </div>
+
+      <div id="none">
+        <p>NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of
+          the third side.</p>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
